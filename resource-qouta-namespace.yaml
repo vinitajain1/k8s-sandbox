@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: demo-namespace-resource
+spec:
+  hard:
+    requests.cpu: "1"
+    requests.memory: "1Gi"
